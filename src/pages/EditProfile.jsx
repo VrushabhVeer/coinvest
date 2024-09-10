@@ -55,7 +55,7 @@ const EditProfile = () => {
       gender,
     };
 
-    const url = `https://teal-crab-kit.cyclic.cloud/user/update/${id}`;
+    const url = `https://coinvest-db-production.up.railway.app/user/update/${id}`;
     const headers = {
       "Content-Type": "application/json",
       Authorization: `Bearer ${localStorage.getItem("token")}`,

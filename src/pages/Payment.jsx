@@ -37,7 +37,7 @@ const Payment = () => {
     };
 
     axios
-      .post("https://teal-crab-kit.cyclic.cloud/coins/buy_coins", payload, {
+      .post("https://coinvest-db-production.up.railway.app/coins/buy_coins", payload, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

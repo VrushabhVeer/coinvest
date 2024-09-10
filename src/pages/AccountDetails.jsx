@@ -25,7 +25,7 @@ const AccountDetails = () => {
 
   const handleComplete = (_id) => {
     axios
-      .delete(`https://teal-crab-kit.cyclic.cloud/coins/delete_coin/${_id}`, {
+      .delete(`https://coinvest-db-production.up.railway.app/coins/delete_coin/${_id}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

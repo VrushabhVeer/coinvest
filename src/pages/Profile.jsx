@@ -28,7 +28,7 @@ const Profile = () => {
     let userId = localStorage.getItem("userId");
 
     axios
-      .get(`https://teal-crab-kit.cyclic.cloud/coins/my_coins/${userId}`, {
+      .get(`https://coinvest-db-production.up.railway.app/coins/my_coins/${userId}`, {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
         },

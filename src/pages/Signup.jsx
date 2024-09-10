@@ -16,7 +16,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API_URL = "https://teal-crab-kit.cyclic.cloud/user/signup";
+const API_URL = "https://coinvest-db-production.up.railway.app/user/signup";
 
 export default function Signup() {
   const [showPassword, setShowPassword] = useState(false);

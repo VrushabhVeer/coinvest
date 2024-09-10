@@ -30,7 +30,7 @@ export default function Login() {
     };
 
     axios
-      .post("https://teal-crab-kit.cyclic.cloud/user/login", payload, {
+      .post("https://coinvest-db-production.up.railway.app/user/login", payload, {
         headers: {
           "Content-Type": "application/json",
         },
